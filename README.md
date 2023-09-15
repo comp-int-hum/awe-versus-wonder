@@ -24,3 +24,38 @@ Note that the script has several options that can be specified, but otherwise us
 ```
 python scripts/train_model.py -h
 ```
+
+Here is the first 15 topics from running the script on this study's data, using default parameters and setting the random seed to 0:
+
+|Topic|Word 1|Word 2|Word 3|Word 4|Word 5|Word 6|Word 7|Word 8|Word 9|Word 10|
+|---|---|---|---|---|---|---|---|---|---|---|
+|0 |      family | parent | were |   friend|  mother|  home |   felt |   they |   year |   life|
+|   |     0.040 |  0.023 |  0.022 |  0.016 |  0.016 |  0.013 |  0.011 |  0.011 |  0.010 |  0.010|
+|1  |     disease |interest |       cancer|  medicine    |    patient |interested  |    research    |    area  |  field |  treatment|
+|   |     0.033 |  0.025 |  0.024 |  0.022  | 0.020 |  0.019 |  0.016 |  0.015 |  0.014 |  0.012|
+|2  |     patient| care |   will  |  physician  |     medical |help  |  health | medicine |       these |  future|
+|   |     0.050 |  0.027 |  0.027  | 0.026 |  0.024 |  0.017 |  0.014 |  0.013 |  0.012 |  0.011|
+|3  |     school | year  |  college |high  |  class  | through| work  |  first |  support |life|
+|   |     0.024 |  0.020 |  0.019 |  0.012  | 0.009 |  0.008  | 0.008 |  0.008  | 0.007 |  0.007|
+|4  |     could |  class |  would |  after |  thing |  back  |  myself | life |   felt |   even|
+|   |     0.017 |  0.016 |  0.015 |  0.013 |  0.011 |  0.010 |  0.010  | 0.009 |  0.009 |  0.009|
+|5  |     what  |  would |  they |   know  |  there |  were |   most |   some |   just  |  them|
+|   |     0.012 |  0.010 |  0.009 |  0.008 |  0.008 |  0.008 |  0.007 |  0.007 |  0.007 |  0.006|
+|6  |     wonder | life |   world |  every |  there  | into |   moment | people | through | around|
+|   |     0.015 |  0.012 |  0.010 |  0.009 |  0.009 |  0.009 |  0.009 |  0.009 |  0.009 |  0.008|
+|7  |     people | community |      minority |       school | background  |    group  | culture |student |being  | different|
+|   |     0.018 |  0.016 |  0.014 |  0.013 |  0.012 |  0.012  | 0.011 |  0.010 |  0.009  | 0.009 |
+|8  |     they  |  were  |  them  |  what  |  people | other |  because| others | person | different|
+|   |     0.037 |  0.022 |  0.021 |  0.017 |  0.014 |  0.014 |  0.012 |  0.010 |  0.010 |  0.009|
+|9 |      student| program| university  |    school | organization  |  community  |     them  |  college |member | group|
+|  |      0.067 |  0.016 |  0.011 |  0.011 |  0.010 |  0.009 |  0.007 |  0.007 |  0.007 |  0.006|
+|10  |    life |   could |  through| year |   while |  during | learned |which |  father|  support|
+|   |     0.012  | 0.011 |  0.010 |  0.010 |  0.009 |  0.009 |  0.008 |  0.008 |  0.007 |  0.007|
+|11 |     could |  hour |   after |  research   |     data |   into  |  result | first |  each  |  week|
+|   |     0.012 |  0.008 |  0.008 |  0.007 |  0.007  | 0.007 |  0.006 |  0.006 |  0.006 |  0.006|
+|12 |     food  |  meal  |  cooking| would |  cook |   eating | ingredient |     family|  others | only|
+|  |      0.041 |  0.021 |  0.019 |  0.017 |  0.014 |  0.012 |  0.012 |  0.011 |  0.011 |  0.011|
+|13 |     research  |      medicine  |      clinical  |      science |through| hopkins| scientific  |    cell |   opportunity  |   john|
+|   |     0.060 |  0.015 |  0.013 |  0.011 |  0.011 |  0.010 |  0.009  | 0.009 |  0.009  | 0.009|
+|14 |     team |   year  |  training  |      sport|   myself | would |  coach |  other  | teammate |       were|
+|   |     0.043 |  0.015  | 0.014 |  0.013  | 0.012 |  0.010 |  0.010  | 0.009  | 0.008 |  0.008|
